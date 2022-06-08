@@ -24,6 +24,7 @@ const nav = document.querySelector(".nav"),
 
             for(let j=0; j<totalNavList;j++)
             {
+                //agrego el ultimo nav para que se vea de fondo
                 if(navList[j].querySelector("a").classList.contains("active"))
                 {
                     addbackSection(j);
